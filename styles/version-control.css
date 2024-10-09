@@ -1,47 +1,50 @@
 * {
     box-sizing: border-box;
-    }
+}
     
-    html {
-        height: 100vh;
-    }
+html {
+    height: 100vh;
+}
     
-    body {
-       background-color: aqua;
-       margin: 0;
-       min-height: 100% ;
-    }
+body {
+    background-color: aqua;
+    margin: 0;
+    min-height: 100% ;
+}
     
-    .header {
-        background-color: #13135c;
-        padding: 24px;
-    }
+.header {
+    background-color: #13135c;
+    padding: 24px;
+}
     
-    .header__page-title {
-        color: #fff;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 4rem;
-        margin: 0;
-        text-align: center;
-    }
+.header__page-title {
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+}
 
-    .git-commands {
-        margin: 24px;
-        color: aliceblue;
-        display: grid;
-        gap: 16px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        grid-template:repeat(6 ,1fr) / 1fr 3fr;
-    }
+.git-commands {
+    margin: 24px;
+    color: aliceblue;
+    display: grid;
+    gap: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-template:repeat(6 ,1fr) / 1fr 3fr;
+}
     
-    .git-commands__command {
-        background-color: #13135c;
-        padding: 16px;
-        font-size: 2rem;
-    }
+.git-commands__command {
+    background-color: #13135c;
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 2rem;
+}
 
-    .git-commands__effect {
-        background-color: antiquewhite;
-        padding: 16px;
-        font-size: 2remn;
-    }
+.git-commands__effect {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    color: black;
+    padding: 16px;
+    font-size: 2rem;
+}
